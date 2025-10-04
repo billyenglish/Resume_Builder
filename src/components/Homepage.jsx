@@ -1,9 +1,31 @@
+import Button from "../subcomponents/Button";
+import Footer from "../components/Footer";
+import { useNavigate } from "react-router-dom";
+
 const Homepage = () => {
 
+    const navigation = useNavigate();
+
     return (
-        <section>
-            <h1>Resume Builder</h1>
-        </section>
+        <>
+            <section className="homepage">
+                <div className="homepage_main_content">
+                    <h1 id="homepage_title">Resume Builder</h1>
+                    <div>
+                        <Button
+                            buttonText="Get Started"
+                            fontSize=".9rem"
+                            fontWeight="600"
+                            height="2.5rem"
+                            width="8rem"
+                            id="homepage_button"
+                            onClick={() => navigation('/personal_details')}
+                        />
+                    </div>
+                </div>
+            </section>
+            <Footer />
+        </>
     );
 };
 
