@@ -6,7 +6,7 @@ const TechnicialSkills = () => {
     return (
         <>
             <Nav />
-            <section>
+            <section className="section">
                 <h2 className="form_title">Technicial Skills</h2>
             </section>
             <Footer />

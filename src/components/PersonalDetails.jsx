@@ -1,6 +1,6 @@
 import Nav from "../components/Nav"
 import InputText from "../subcomponents/InputText";
-import TextArea from "../subcomponents/Textarea";
+import TextArea from "../subcomponents/TextArea";
 import Button from "../subcomponents/Button";
 import Footer from "../components/Footer";
 import "../styles/personal_details.css";
