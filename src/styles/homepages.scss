@@ -1,0 +1,30 @@
+.homepage {
+    border: 1px solid #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .homepage_main_content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    #homepage_title {
+        font-size: 2rem;
+        font-weight: 500;
+        letter-spacing: .1rem;
+    }
+
+    #homepage_subtitle {
+        font-size: 1.25rem;
+        font-weight: 400;
+        letter-spacing: .1rem;
+        font-style: oblique;
+    }
+
+}
+
