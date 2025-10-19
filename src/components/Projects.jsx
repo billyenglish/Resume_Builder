@@ -1,5 +1,6 @@
 import Nav from "./Nav";
 import Footer from "./Footer";
+import Button from "../subcomponents/Button";
 
 const Projects = () => {
 
@@ -8,11 +9,7 @@ const Projects = () => {
             <Nav />
             <section className="section">
                 <form>
-                    <div className="form_header">
-                        <h2 className="form_title">Projects</h2>
-                    </div>
-
-
+                    <div></div>
                 </form>
             </section>
             <Footer />

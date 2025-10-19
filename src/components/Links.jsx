@@ -2,7 +2,6 @@ import Nav from "./Nav"
 import Footer from "./Footer"
 import Button from "../subcomponents/Button"
 import InputText from "../subcomponents/InputText";
-import "../styles/links.css";
 
 const Links = () => {
 

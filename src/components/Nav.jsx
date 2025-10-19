@@ -1,4 +1,4 @@
-import "../styles/nav.css";
+import '../styles/nav.scss';
 import { IoPerson, IoHammer, IoBriefcase } from "react-icons/io5";
 import { FaFolderOpen, FaGraduationCap, FaLink, FaTrashCan, FaEye } from "react-icons/fa6";
 import { GrCertificate } from "react-icons/gr";
@@ -6,7 +6,7 @@ import { IoMdInformationCircle } from "react-icons/io";
 import { GoKebabHorizontal } from "react-icons/go";
 import { VscOpenPreview } from "react-icons/vsc";
 import { Link } from "react-router-dom";
- 
+
 const navMenu = [
     {
         navIcon: <IoPerson />,
@@ -69,16 +69,22 @@ const Nav = () => {
 
             <ul className="middle_nav_list nav_list">
                 <li className="nav_items">
-                    <VscOpenPreview />
+                    <Link to="/">
+                        <VscOpenPreview />
+                    </Link>
                 </li>
             </ul>
 
             <ul className="bottom_nav_list nav_list">
                 <li className="nav_items">
-                    <FaTrashCan />
+                    <Link to="/">
+                        <FaTrashCan />
+                    </Link>
                 </li>
                 <li className="nav_items">
-                    <FaEye />
+                    <Link to="/">
+                        <FaEye />
+                    </Link>
                 </li>
             </ul>
         </nav>

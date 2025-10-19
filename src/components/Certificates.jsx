@@ -12,12 +12,10 @@ const Certificate = () => {
                 <form className="form">
                     <div className="form_header">
                         <h2 className="form_title">
-                            <h2 className="form_title">
-                                Certificates &amp; Awards
-                            </h2>
+                            Certificates &amp; Awards
                         </h2>
 
-                        <div>
+                        <div className="form_control_panel">
                             <Button
                                 buttonText="Back"
                             />
@@ -25,7 +23,21 @@ const Certificate = () => {
                                 buttonText="Next"
                             />
                         </div>
-                    </div> 
+                    </div>
+                    <div className="form_rows">
+                        <select>
+                            <option>Certificate</option>
+                            <option>Award</option>
+                        </select>
+
+                        <label className="label_form">Certificate/Award
+                            <InputText
+                                width="30rem"
+                                placeholder="Add Certificate Or Award"
+                            />
+                        </label>
+                    </div>
+                    
                 </form>
             </section>
             <Footer />
