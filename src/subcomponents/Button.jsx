@@ -1,8 +1,8 @@
 const Button = ({
     buttonText = "Button",
     fontSize = "1rem",
-    fontWeight = "400",
-    padding = ".25rem",
+    fontWeight = "500",
+    padding = "0rem",
     height = "2rem",
     width = "3.5rem",
     letterSpacing = ".1rem",
